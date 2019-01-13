@@ -1,0 +1,441 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.nopadding {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.btn-blackk {
+    background-color: #141618;
+    border: 1px solid #141618;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1.2px;
+    padding: 13px 31px;
+    transition: all 0.2s ease-out;
+
+}
+
+.btn-blackk:hover {
+    background-color: #fff;
+    color: #141618;
+}
+
+.btn-yellow {
+    background-color: #b4975a;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    padding: 10px 30px;
+}
+
+.menu.scroll {
+    position: fixed;
+    background-color: #fff;
+    box-shadow: 0 4px 10px -10px rgba(0, 0, 0, .6);
+
+}
+
+.main-menu {
+
+    display: flex;
+    padding: 27px 0px 27px 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-menu {}
+
+.logo-menu {}
+
+.logo-menu img {
+    width: 50px;
+    height: 50px;
+}
+
+.menu {
+    padding: 0px 36px 0px 36px;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+    transition: all 0.2s ease-out;
+
+}
+
+
+
+.left-menu .social-menu a {
+    padding: 10px;
+}
+
+.video-background {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+
+.main-video {}
+
+#video {
+
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+
+    z-index: -1000;
+    overflow: hidden;
+
+}
+
+.intro {
+    position: relative;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    padding: 108px 0px 108px 0px;
+}
+
+.text-intro .head-intro {
+    font-size: 29px;
+    margin-bottom: 40px;
+}
+
+.text-intro .foot-intro {
+    color: #777;
+    font-size: 18px;
+}
+
+.ourchef {
+    position: relative;
+}
+
+
+
+.text-chef {
+
+    padding: 72px;
+
+}
+
+.acclaim {
+    font-family: 'Playfair Display', serif;
+    position: relative;
+    width: 100%;
+    padding: 30px 0px 30px 0px;
+
+}
+
+.main-acclaim {
+    max-width: 840px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 72px;
+}
+
+.top-acclaim {
+    font-size: 29px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.text-acclaim h6 {
+    color: #303133;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.gallery {
+    position: relative;
+    width: 100%;
+    background-color: #141618;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.gallery-item {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.main-menufood {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    letter-spacing: -.02em;
+    max-width: 756px;
+    margin: 0 auto;
+
+}
+
+.head-menufood {
+    text-align: center;
+    margin-bottom: 80px;
+    font-weight: 400;
+    font-size: 29px;
+}
+
+.menufood {
+    position: relative;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.name-menufood h3 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.name-menufood p {
+    font-size: 17px;
+    color: #777;
+    font-weight: 400;
+}
+
+.price-menufood {
+    font-weight: 400;
+    font-size: 29px;
+
+}
+
+.item-menufood {
+    border-top: 1px solid #ccc;
+    padding: 36px;
+}
+
+.nav-link.active {
+    color: #b4975a !important;
+    /*    border-color: #b4975a!important;*/
+    border-bottom: 2px solid #b4975a !important;
+}
+
+.nav-tabs {
+    border-bottom: none;
+}
+
+.nav-tabs .nav-link {
+    font-family: 'Poppins', sans-serif;
+    padding: 0 23px 18px 23px;
+    border: none;
+    letter-spacing: 1.4px;
+    color: #303133;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.time {
+    position: relative;
+    width: 100%;
+    color: #fff;
+
+    font-family: 'Playfair Display', serif;
+}
+
+.main-time {
+    background-image: url(/Users/PhatLee/Desktop/restaurant/img/2017/03/neven-krcmarek-175838-min-uai-2064x1415.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 108px 180px 108px 180px;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #101213;
+    opacity: 0.65;
+}
+.overlay2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(16,18,19,.95);
+    opacity: 1;
+       
+}
+
+.head-time {
+    border-bottom: 1px solid #4d4d4f;
+    padding: 20px;
+    font-weight: 400;
+    font-size: 29px;
+}
+
+.foot-time {
+    padding: 20px;
+}
+
+.scrolltop {
+    position: fixed;
+   
+    z-index: 99;
+    right: 22px;
+    bottom: 22px;
+
+}
+
+.map {
+    position: relative;
+    font-family: 'Playfair Display', serif;
+    width: 100%;
+}
+
+#main-map {
+    width: 666px;
+    height: 350px;
+    margin: 0 auto;
+
+}
+
+.mapmap {
+    position: relative;
+    bottom: 100px;
+
+}
+
+.text-map h4 {
+    font-size: 17px;
+    font-weight: 400;
+    color: #777777;
+    margin: 40px 0px;
+
+}
+
+.insta {
+    position: relative;
+    padding: 100px 150px;
+    background-color: #141618;
+    width: 100%;
+    font-family: 'Playfair Display', serif;
+}
+
+.head-insta {
+    font-size: 29px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 80px;
+}
+
+.line-1 {
+    background-color: #303133;
+    width: 20px;
+    height: 3px;
+    position: relative;
+    
+}
+.line-1::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 6px;
+     background-color: #303133;
+    width: 20px;
+    height: 3px;
+}
+.line-1::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: -6px;
+     background-color: #303133;
+    width: 20px;
+    height: 3px;
+}
+
+.line {
+    position: relative;
+    padding: 20px 36px;
+    display: inline-block;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.booknow {
+    display: inline-block;
+}
+
+.submenu {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 10000;
+/*    display: none;*/
+    opacity: 0;
+    transition: opacity 0.5s;
+    visibility: hidden;
+    
+}
+.submenu.scroll {
+/*    display: block;*/
+    opacity: 1;
+    transition: opacity 0.5s;
+    visibility: visible;
+    
+    
+    
+}
+
+.main-submenu {
+   position: relative;
+    transform: translateY(-50%);
+    top: 50%;
+}
+
+
+
+.text-submenu {
+    text-align: center;
+    position: relative;
+    
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    
+    font-size: 3.5vh;
+    font-weight: 600;
+    
+}
+.list-inline li {
+    transform: translateY(-40px);
+    opacity: 0;
+    transition: transform 0.2s,opacity 0.2s;
+}
+.list-inline.open li {
+    transform: translateY(0px);
+    opacity: 1;
+    transition: transform 0.2s,opacity 0.2s;
+
+}
+
+
+.exit {
+    position: absolute;
+    right: 42px;
+    top: 32px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 29px;
+}
